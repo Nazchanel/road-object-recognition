@@ -15,11 +15,12 @@ vehicle_classification/
 
 split-dataset/
 
-saved-models/
+# saved-models/
 
 *.npy
 
-test-images/
+# test-images/
+
 # AWS User-specific
 .idea/**/aws.xml
 
