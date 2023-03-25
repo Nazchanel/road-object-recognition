@@ -4,7 +4,12 @@ Original, Unsplit, Dataset: [Link](https://drive.google.com/file/d/1L1JONuGRwtde
 
 ---
 
+Install all dependecies using `pip install -r requirements.txt`
+
+---
+
 ## Introduction
+
 Autonomous vehicles rely heavily on cameras as a primary sensor for perceiving the environment
 around them. Cameras capture images of the surrounding environment, which are then processed by
 the vehicle's computer vision algorithms to identify and track objects, such as other vehicles,
@@ -25,7 +30,9 @@ markings. Once trained, the CNNs can be integrated into the computer vision algo
 autonomous vehicles to help them better detect and identify objects in the environment. For example, a
 CNN can be used to detect and track pedestrians in real-time, which can help the vehicle avoid
 collisions.
+
 ## Tasks
+
 You’re provided with an image dataset (vehicle_classification.zip) that contains 8 different classes of
 vehicles:
 
@@ -33,6 +40,7 @@ vehicles:
 
 The goal is to train a CNN that can classify these different types of vehicles.
 This can be divided into several steps:
+
 1. Load the data.
 2. Divide the dataset into a training set and a testing set with a ratio of 8:2.
 3. Build a CNN model that takes an image (or a batch of images) as input and output the class that
@@ -43,6 +51,7 @@ the input image(s) are belonging to.
 You’re recommended to use Python programming language and PyTorch library for the implementation.
 
 ## Submission & Evaluation
+
 You need to submit your source code and the output when you’re running the code.
 The output should contain the final accuracy on the training set and the testing set. Plotting the loss and
 accuracy curve are optional. You can put the output in a text file or make a screenshot. If you’re using
