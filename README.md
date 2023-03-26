@@ -1,16 +1,18 @@
 # Road Object Recognition
 
-Original, Unsplit, Dataset: [Link](https://drive.google.com/file/d/1L1JONuGRwtdeGCYYQjBqL_fgB9l__R8Q/view?usp=sharin://drive.google.com/file/d/1L1JONuGRwtdeGCYYQjBqL_fgB9l__R8Q/view?usp=sharing)
+Original, Unsplit Dataset: ***[Link](https://drive.google.com/file/d/1L1JONuGRwtdeGCYYQjBqL_fgB9l__R8Q/view?usp=sharin://drive.google.com/file/d/1L1JONuGRwtdeGCYYQjBqL_fgB9l__R8Q/view?usp=sharing)***
 
 *There is no need for you to download this dataset as it will automatically download and unzip in the program*
 
----
+## Program Presentation
 
+The following link is a presentation going into depth about how the program works. ***[Link](https://docs.google.com/presentation/d/1Z_Ljwwx1V8KLPWaViEDhra2fAgAVSLw7GDn1XgTV_vw/edit?usp=sharing)***
+## Program Setup
 Install all dependecies using `pip install -r requirements.txt`
 
----
+## Project Overview
 
-## Introduction
+### Introduction
 
 Autonomous vehicles rely heavily on cameras as a primary sensor for perceiving the environment
 around them. Cameras capture images of the surrounding environment, which are then processed by
@@ -33,7 +35,7 @@ autonomous vehicles to help them better detect and identify objects in the envir
 CNN can be used to detect and track pedestrians in real-time, which can help the vehicle avoid
 collisions.
 
-## Tasks
+### Tasks
 
 You’re provided with an image dataset (vehicle_classification.zip) that contains 8 different classes of
 vehicles:
@@ -52,7 +54,7 @@ the input image(s) are belonging to.
 6. (Optional) Plot the loss and accuracy curve during the training.
 You’re recommended to use Python programming language and PyTorch library for the implementation.
 
-## Submission & Evaluation
+### Submission & Evaluation
 
 You need to submit your source code and the output when you’re running the code.
 The output should contain the final accuracy on the training set and the testing set. Plotting the loss and
